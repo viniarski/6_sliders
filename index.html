@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <script src="./app.js"></script>
-    <title>Document</title>
+    <script src="./app.js" defer></script>
+    <title>Panels</title>
   </head>
   <body>
-    <div class="wrapper">
+    <main class="box">
       <div class="container">
-        <input type="radio" name="segment" id="no-1" checked/>
+        <input type="radio" name="segment" id="no-1" />
         <label for="no-1" class="card">
-          <div class="row">
+          <div class="panel">
             <div class="commentary">
-              <h2>Leon</h2>
+              <h2>LEON</h2>
               <p>
                 Large carnivorous mammals known for their majestic mane, social
                 behavior, and status as the only truly social cats.
@@ -24,9 +24,9 @@
         </label>
         <input type="radio" name="segment" id="no-2" />
         <label for="no-2" class="card">
-          <div class="row">
+          <div class="panel">
             <div class="commentary">
-              <h2>Tiger</h2>
+              <h2>TIGER</h2>
               <p>
                 Powerful big cats characterized by their distinctive orange fur
                 with black stripes, and they are the largest cat species.
@@ -36,9 +36,9 @@
         </label>
         <input type="radio" name="segment" id="no-3" />
         <label for="no-3" class="card">
-          <div class="row">
+          <div class="panel">
             <div class="commentary">
-              <h2>Gorilla</h2>
+              <h2>GORILLA</h2>
               <p>
                 Intelligent, herbivorous primates that live in family groups,
                 and they are the largest of all primates.
@@ -46,36 +46,48 @@
             </div>
           </div>
         </label>
+        <input type="radio" name="segment" id="no-7" checked/>
+        <label for="no-7" class="card">
+          <div class="panel">
+            <div class="commentary">
+              <h2>LEOPARD</h2>
+              <p>
+                Large feline with a distinctive golden-yellow coat covered in
+                black spots and rosettes, known for its agility, stealth.
+              </p>
+            </div>
+          </div>
+        </label>
         <input type="radio" name="segment" id="no-4" />
         <label for="no-4" class="card">
-          <div class="row">
+          <div class="panel">
             <div class="commentary">
-              <h2>Horse</h2>
+              <h2>ZEBRA</h2>
               <p>
-                Domesticated mammals used for various purposes, known for their speed, strength,
-                and companionship with humans.
+                The zebra is a wild herbivorous mammal native to Africa,
+                recognized for its iconic black and white striped coat.
               </p>
             </div>
           </div>
         </label>
         <input type="radio" name="segment" id="no-5" />
         <label for="no-5" class="card">
-          <div class="row">
+          <div class="panel">
             <div class="commentary">
-              <h2>Elephant</h2>
+              <h2>ELEPHANT</h2>
               <p>
                 The largest land mammals, recognized for their long trunks,
-                large ears, tusks, they are highly intelligent and
-                social animals.
+                large ears, tusks, they are highly intelligent and social
+                animals.
               </p>
             </div>
           </div>
         </label>
         <input type="radio" name="segment" id="no-6" />
         <label for="no-6" class="card">
-          <div class="row">
+          <div class="panel">
             <div class="commentary">
-              <h2>Panda</h2>
+              <h2>PANDA</h2>
               <p>
                 Black-and-white bears native to China, primarily known for their
                 bamboo diet, distinctive markings, and playful behavior.
@@ -84,6 +96,6 @@
           </div>
         </label>
       </div>
-    </div>
+    </main>
   </body>
 </html>
