@@ -1,2 +1,2 @@
-# 6_sliders
+# Big_Cats
 picture_viewer
