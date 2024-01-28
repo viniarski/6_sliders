@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const segment = document.getElementsByName('segment')
+  let segments = document.getElementsByName('segment')
 
-  segment.forEach((panel) => {
-    panel.addEventListener("click", function (event) {
-      const targetPanel = event.target;
-      const isOpen = targetPanel.getAttribute('data-open') == 'true';
+  segments.forEach((segment) => {
+    segment.addEventListener("click", function (event) {
+      let targetSegment = event.target;
+      let isOpen = targetSegment.getAttribute('data-open') == 'true';
 
       if (isOpen) {
-        targetPanel.setAttribute('data-open', 'false');
+        targetSegment.checked = false;
+        targetSegment.setAttribute('data-open', 'false');
       } else {
-        targetPanel.checked = false;
-        targetPanel.setAttribute('data-open', 'true');
+        targetSegment.setAttribute('data-open', 'true');
       }
     });
   });

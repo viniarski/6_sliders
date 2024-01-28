@@ -37,6 +37,7 @@ h1 {
 .card {
     width: 50px;
     background-size: cover;
+    background-color: black;
     border-radius: 12px;
     overflow: hidden;
     margin: 0 10px;
