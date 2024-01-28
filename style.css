@@ -78,29 +78,29 @@ input:checked + label .commentary {
 }
 
 .card[for='no-1'] {
-    background-image: url('./media/1.avif');
+    background-image: url('./media/lion.avif');
 }
 
 .card[for='no-2'] {
-    background-image: url('./media/2.avif');
+    background-image: url('./media/tiger.avif');
 }
 
 .card[for='no-3'] {
-    background-image: url('./media/3.avif');
+    background-image: url('./media/lynx.avif');
 }
 
 .card[for='no-4'] {
-    background-image: url('./media/4.avif');
+    background-image: url('./media/cheetah.avif');
 }
 
 .card[for='no-5'] {
-    background-image: url('./media/5.avif');
+    background-image: url('./media/jaguar.avif');
 }
 
 .card[for='no-6'] {
-    background-image: url('./media/6.avif');
+    background-image: url('./media/cougar.avif');
 }
 
 .card[for='no-7'] {
-    background-image: url('./media/7.avif');
+    background-image: url('./media/leopard.avif');
 }

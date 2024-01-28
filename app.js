@@ -1,17 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const radioInputs = document.querySelectorAll('input[name="segment"]');
+  const segment = document.getElementsByName('segment')
 
-  radioInputs.forEach((input) => {
-    input.addEventListener("click", function (event) {
-      const targetInput = event.target;
-      const isChecked = targetInput.checked;
-      const isOpen = targetInput.getAttribute('data-open') === 'true';
+  segment.forEach((panel) => {
+    panel.addEventListener("click", function (event) {
+      const targetPanel = event.target;
+      const isOpen = targetPanel.getAttribute('data-open') == 'true';
 
-      if (isChecked && !isOpen) {
-        targetInput.setAttribute('data-open', 'true');
+      if (isOpen) {
+        targetPanel.setAttribute('data-open', 'false');
       } else {
-        targetInput.checked = false;
-        targetInput.setAttribute('data-open', 'false');
+        targetPanel.checked = false;
+        targetPanel.setAttribute('data-open', 'true');
       }
     });
   });
